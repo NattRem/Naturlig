@@ -1,0 +1,55 @@
+@import "paleta";
+
+html{
+    font-size: 62,5%;
+    scroll-behavior: smooth;
+    padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+
+
+.marginTB{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.marginLR{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.paddingTB{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.paddingCorto{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.paddingLR{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.container-fluid{
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.BGcolor{
+	background-color: $fondo;
+}
+.BGgradient{
+	background-image:linear-gradient(to top, $magic , $miel) ;
+}
+
+#Redes{
+	width: 15%;
+}
+
+.btn-outline-primary{
+	color: $menta;
+}

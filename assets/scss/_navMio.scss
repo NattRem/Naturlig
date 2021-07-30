@@ -1,0 +1,42 @@
+@import "paleta";
+
+#logo{
+    width: 50%;
+
+    @media only screen and (min-width: 1200px){
+        width: 20%;
+    }
+}
+
+.seguinos{
+	font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: $oscuro;
+    text-decoration: none;
+
+    a{
+    text-decoration: none;
+    }
+}
+
+.navbar-expand-lg .navbar-collapse{justify-content: center;}
+
+.nav__li--activa{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1.9rem;
+    font-weight: 500;
+    color: $logo;
+    padding: 5px;
+    margin: 0px 5px 0px 5px;     
+}
+
+.nav__li--link{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1.9rem;
+    font-weight: 300;
+    text-decoration: none;
+    color: $oscuro;
+    padding: 5px;
+    margin: 0px 5px 0px 5px;
+}    

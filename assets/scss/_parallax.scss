@@ -1,0 +1,159 @@
+@import "paleta";
+
+$AltoPllx:20rem;
+/*map-get*/
+$Parh1:(
+    Fsize:2.5rem,
+    centro:center,
+    Fweight:600,
+    );
+.ParallaxInicio{
+    background-image: url("../imagenes/img01.jpg");
+    height: $AltoPllx;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 5rem 3rem;
+    margin-bottom:5rem;
+        @media only screen and (min-width: 1200px){
+            height: $AltoPllx+10rem;
+            background-position: center;
+        }
+
+    h1{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: map-get($Parh1, Fsize);
+    text-align: map-get($Parh1, centro);
+    font-weight: map-get($Parh1, Fweight);
+    color: $oscuro;
+    padding: 10px;
+        @media only screen and (min-width: 1200px){
+            font-size: 6rem;
+            text-align: right;
+        }
+    } 
+    h3{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 500;
+    color: $oscuro;
+    padding: 5px;
+
+        @media only screen and (min-width: 1200px){
+            font-size: 2rem;
+            text-align: right;
+        }
+    }
+}
+
+.ParallaxTienda{
+    @extend .ParallaxInicio;
+    background-image: url("../imagenes/img02.jpg");
+    
+    h1{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: map-get($Parh1, Fweight);
+    color: $oscuro;
+        @media only screen and (min-width: 1200px){
+            font-size: 4.5rem;
+            text-align: right;
+            padding-top: 50px;
+        } 
+    }
+    h3{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 500;
+    color: $oscuro;
+    padding: 5px;
+
+        @media only screen and (min-width: 1200px){
+            font-size: 2rem;
+            text-align: right;
+        }
+    } 
+}
+
+.ParallaxPromo{
+	background-image: url("../imagenes/img03.jpg");
+    height: $AltoPllx;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 5rem 3rem;
+    margin-bottom:5rem;
+        @media only screen and (min-width: 1200px){
+            height: $AltoPllx+10rem;
+            background-position: center;
+        }
+
+    h1{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: map-get($Parh1, Fweight);
+    color: $oscuro;
+        @media only screen and (min-width: 1200px){
+            font-size: 4.5rem;
+        text-align: right;
+        padding-top: 50px;
+        } 
+    }
+    h3{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 500;
+    color: $oscuro;
+    padding: 5px;
+
+        @media only screen and (min-width: 1200px){
+            font-size: 2rem;
+            text-align: right;
+        }
+    } 
+}
+
+.ParallaxNov{
+	background-image: url("../imagenes/img04.jpg");
+    height: $AltoPllx;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 5rem 3rem;
+    margin-bottom:5rem;
+        @media only screen and (min-width: 1200px){
+            height: $AltoPllx+10rem;
+            background-position: center;
+        }
+
+    h1{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: map-get($Parh1, Fweight);
+    color: $oscuro;
+        @media only screen and (min-width: 1200px){
+            font-size: 4.5rem;
+            text-align: right;
+            padding-top: 50px;
+        } 
+    }
+    h3{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 500;
+    color: $oscuro;
+    padding: 5px;
+
+        @media only screen and (min-width: 1200px){
+            font-size: 2rem;
+            text-align: right;
+        }
+    } 
+}
