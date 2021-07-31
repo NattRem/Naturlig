@@ -7496,6 +7496,14 @@ html {
       position: relative;
       left: 80px; } }
 
+.footer__icon--align {
+  position: relative;
+  left: 30px; }
+  @media only screen and (min-width: 1200px) {
+    .footer__icon--align {
+      position: relative;
+      left: 70px; } }
+
 .Frase h2 {
   font-family: 'Montserrat Alternates', sans-serif;
   font-size: 2rem;
