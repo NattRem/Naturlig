@@ -7238,6 +7238,20 @@ html {
 .btn-outline-primary {
   color: #66b491ff; }
 
+.ecoIcon--type {
+  position: relative;
+  right: 70px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  text-align: center;
+  line-height: 1;
+  color: #4f8c71ff; }
+
+.EcoIcon {
+  position: relative;
+  left: 80px; }
+
 /*map-get*/
 .ParallaxInicio, .ParallaxTienda {
   background-image: url("../imagenes/img01.jpg");
