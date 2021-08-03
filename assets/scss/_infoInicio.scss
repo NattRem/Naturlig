@@ -1,15 +1,25 @@
 @import "paleta";
 
 .Frase {
+    padding-top:50px;
+    margin-top:50px;
     h2{
     font-family:'Montserrat Alternates', sans-serif;
     font-size: 2rem;
-    font-weight: 300;
+    font-weight: 500;
     color: $oscuro;
         @media only screen and (min-width: 1200px){
             font-size: 4rem;
         }
     }
+}
+.Frase--background{
+    background-image: url("../imagenes/Decos/FondoHojas.jpg");
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position:relative;
+    bottom:80px;
 }
 
 .infoInicio__texto--type{

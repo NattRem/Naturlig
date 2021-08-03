@@ -7504,14 +7504,25 @@ html {
       position: relative;
       left: 70px; } }
 
-.Frase h2 {
-  font-family: 'Montserrat Alternates', sans-serif;
-  font-size: 2rem;
-  font-weight: 300;
-  color: #4f8c71ff; }
-  @media only screen and (min-width: 1200px) {
-    .Frase h2 {
-      font-size: 4rem; } }
+.Frase {
+  padding-top: 50px;
+  margin-top: 50px; }
+  .Frase h2 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #4f8c71ff; }
+    @media only screen and (min-width: 1200px) {
+      .Frase h2 {
+        font-size: 4rem; } }
+
+.Frase--background {
+  background-image: url("../imagenes/Decos/FondoHojas.jpg");
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  bottom: 80px; }
 
 .infoInicio__texto--type {
   font-family: 'Montserrat Alternates', sans-serif;
