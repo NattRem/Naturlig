@@ -7498,6 +7498,14 @@ html {
   line-height: 1.5;
   color: #66b491ff; }
 
+.TypeFootCopy {
+  text-align: center;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #4f8c71ff; }
+
 .TextoFoo {
   display: flex;
   align-self: center;
