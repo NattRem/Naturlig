@@ -7598,7 +7598,7 @@ html {
 
 .infoInicio__texto--type {
   font-family: 'Montserrat Alternates', sans-serif;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 500;
   text-align: justify;
   line-height: 1;
@@ -7607,14 +7607,37 @@ html {
     .infoInicio__texto--type {
       padding-right: 80px;
       padding-top: 80px;
+      margin-bottom: 50px;
       font-size: 1.2rem;
       line-height: 1.2; } }
 
+.PrimerParrafo {
+  position: relative;
+  bottom: 500px; }
+  @media only screen and (min-width: 1200px) {
+    .PrimerParrafo {
+      position: relative;
+      bottom: 0px; } }
+
+.SegundoParrafo {
+  position: relative;
+  bottom: 100px; }
+  @media only screen and (min-width: 1200px) {
+    .SegundoParrafo {
+      position: relative;
+      bottom: 0px; } }
+
 .infoInicio__img--width {
-  width: 100%; }
+  width: 100%;
+  position: relative;
+  top: 100px; }
   @media only screen and (min-width: 1200px) {
     .infoInicio__img--width {
-      width: 80%; } }
+      width: 80%;
+      padding-top: 50px;
+      margin-bottom: 50px;
+      position: relative;
+      top: 0px; } }
 
 .TypeProd {
   font-family: 'Montserrat Alternates', sans-serif;
