@@ -7708,6 +7708,11 @@ html {
     width: 60%; } }
 
 @media only screen and (min-width: 1200px) {
+  .InputBuscar {
+    position: relative;
+    left: 300px; } }
+
+@media only screen and (min-width: 1200px) {
   .RedesContacto {
     font-size: 3rem; } }
 
