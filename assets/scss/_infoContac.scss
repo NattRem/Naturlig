@@ -37,3 +37,48 @@
         bottom:70px;
     }
 }
+.Contact__mail--ícono{
+    padding-left: 10px;
+    width:10%;
+    position:relative;
+    left:20px;
+    @media only screen and (min-width: 1200px){
+        position:relative;
+        left:20px;
+        top:20px;
+    }
+}
+.Contact__mail--dire{
+    position: relative;
+    right:0px;
+    top: 5px;
+    overflow:hidden;
+
+    @media only screen and (min-width: 1200px){
+        position: relative;
+        right:20px;
+        top: 25px;
+    }
+}
+.Contact__cel--ícono{
+    padding-right: 10px;
+    width:10%;
+    position:relative;
+    left:35px;
+    @media only screen and (min-width: 1200px){
+        position:relative;
+        top: 10px;        
+    }
+}
+.Contact__cel--numero{
+    position: relative;
+    right:30px;
+    top: 5px;
+    overflow:hidden;
+
+    @media only screen and (min-width: 1200px){
+        position: relative;
+        
+        top: 15px;
+    }    
+}
