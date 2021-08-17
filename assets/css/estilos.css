@@ -7729,6 +7729,18 @@ html {
     text-align: center;
     font-size: 1.5rem;
     font-weight: 600; }
+  .Destacados--tipograf h3 {
+    color: #66b491ff;
+    font-size: 2rem; }
+    @media only screen and (min-width: 1200px) {
+      .Destacados--tipograf h3 {
+        font-size: 2.5rem; } }
+  .Destacados--tipograf h4 {
+    color: #66b491ff;
+    font-size: 1.5rem; }
+    @media only screen and (min-width: 1200px) {
+      .Destacados--tipograf h4 {
+        font-size: 2rem; } }
 
 @media only screen and (min-width: 1200px) {
   .RedesContacto {

@@ -82,4 +82,19 @@
     	font-size: 1.5rem;
     	font-weight: 600;
     }
+    h3{
+    	color: $menta;
+    	font-size: 2rem;
+    	@media only screen and (min-width: 1200px){
+    		font-size: 2.5rem;
+    	}
+    }
+    h4{
+        color: $menta;
+        font-size: 1.5rem;
+    	@media only screen and (min-width: 1200px){
+    	    font-size: 2rem;
+    	}
+
+    }
 }
