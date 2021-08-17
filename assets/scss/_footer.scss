@@ -67,13 +67,15 @@
 }
 .foo__text--pad{
     padding-top: 50px;
+    position:relative;
+    right:30px;
     @media only screen and (min-width: 1200px){
         padding-top: 80px;
     }
 }
 .footer__mail--ícono{
     padding-left: 10px;
-    width:10%;
+    width:11%;
     position:relative;
     right:25px;
     @media only screen and (min-width: 1200px){
@@ -83,7 +85,7 @@
 }
 .footer__cel--ícono{
     padding-right: 10px;
-    width:10%;
+    width:11%;
 }
 .footer__cel--numero{
     position: relative;
@@ -111,7 +113,7 @@
 }
 .footer__MailCel--alinear{
     position: relative;
-    left: 30px;
+    left: 40px;
     width:100%;
     overflow:hidden;
     @media only screen and (min-width: 1200px){
