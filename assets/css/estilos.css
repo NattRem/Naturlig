@@ -7545,11 +7545,15 @@ html {
   @media only screen and (min-width: 1200px) {
     .footer__mail--ícono {
       position: relative;
-      right: 0px; } }
+      right: 0px;
+      width: 10%; } }
 
 .footer__cel--ícono {
   padding-right: 10px;
   width: 11%; }
+  @media only screen and (min-width: 1200px) {
+    .footer__cel--ícono {
+      width: 10%; } }
 
 .footer__cel--numero {
   position: relative;
