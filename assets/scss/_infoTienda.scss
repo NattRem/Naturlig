@@ -1,23 +1,5 @@
 @import "paleta";
 
-.TypeProd{
-	font-family: 'Montserrat Alternates', sans-serif;
-    font-size: 1rem;
-    font-weight: 500;
-    text-align: center;
-    line-height: 1;
-    color: $oscuro;
-		@media only screen and (min-width: 1200px){
-	    	text-align: right;
-		    position: relative;
-			left: 100px;
-	    }
-    h5{
-    	@media only screen and (min-width: 1200px){
-    		font-size: 2rem;
-    	}
-	}
-}
 
 .TypeProd2{
 	font-family: 'Montserrat Alternates', sans-serif;
@@ -38,15 +20,23 @@
 	}
 }
 .PrimerProducTienda{
-		@media only screen and (min-width: 1200px){
-		    display: flex;
-		    flex-direction: row;
+	font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1;
+    color: $oscuro;
+    @media only screen and (min-width: 1200px){
+	    	text-align: right;
 		    position: relative;
-		    left: 200px;
-    	}
+			left: 100px;
+			display: flex;
+		    flex-direction: row;
+	    }
     img{
+    	width:90%;
     	@media only screen and (min-width: 1200px){
-			width: 60%;
+    		width:110%;
     	}
 	}	
 }

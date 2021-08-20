@@ -7659,22 +7659,6 @@ html {
       position: relative;
       top: 0px; } }
 
-.TypeProd {
-  font-family: 'Montserrat Alternates', sans-serif;
-  font-size: 1rem;
-  font-weight: 500;
-  text-align: center;
-  line-height: 1;
-  color: #4f8c71ff; }
-  @media only screen and (min-width: 1200px) {
-    .TypeProd {
-      text-align: right;
-      position: relative;
-      left: 100px; } }
-  @media only screen and (min-width: 1200px) {
-    .TypeProd h5 {
-      font-size: 2rem; } }
-
 .TypeProd2 {
   font-family: 'Montserrat Alternates', sans-serif;
   font-size: 1rem;
@@ -7691,16 +7675,25 @@ html {
     .TypeProd2 h5 {
       font-size: 2rem; } }
 
-@media only screen and (min-width: 1200px) {
-  .PrimerProducTienda {
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    left: 200px; } }
-
-@media only screen and (min-width: 1200px) {
+.PrimerProducTienda {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1;
+  color: #4f8c71ff; }
+  @media only screen and (min-width: 1200px) {
+    .PrimerProducTienda {
+      text-align: right;
+      position: relative;
+      left: 100px;
+      display: flex;
+      flex-direction: row; } }
   .PrimerProducTienda img {
-    width: 60%; } }
+    width: 90%; }
+    @media only screen and (min-width: 1200px) {
+      .PrimerProducTienda img {
+        width: 110%; } }
 
 @media only screen and (min-width: 1200px) {
   .SegunProducTienda {
