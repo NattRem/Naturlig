@@ -20,18 +20,24 @@
 	}
 }
 .PrimerProducTienda{
-	font-family: 'Montserrat Alternates', sans-serif;
-    font-size: 1rem;
-    font-weight: 500;
+	font-family: 'Montserrat Alternates', sans-serif;    
     text-align: center;
     line-height: 1;
     color: $oscuro;
+    h3{
+    	font-size: 2rem;
+    	font-weight: 500;
+    }
+    h4{
+    	font-size: 2rem;
+    	font-weight: 400;
+    }
+    h5{
+    	font-size: 1.5rem;
+    	font-weight: 300;
+    }
     @media only screen and (min-width: 1200px){
-	    	text-align: right;
-		    position: relative;
-			left: 100px;
-			display: flex;
-		    flex-direction: row;
+	    	text-align: center;
 	    }
     img{
     	width:90%;
