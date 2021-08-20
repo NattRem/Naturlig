@@ -83,21 +83,32 @@
     	font-size: 1.5rem;
     	font-weight: 600;
     }
-    h3{
+}
+.destacados{	
+	h3{
     	font-family: 'Montserrat Alternates', sans-serif;
-    	color: $menta;
-    	font-size: 2rem;
+    	color: $logo;
+    	font-size: 1.8rem;
     	@media only screen and (min-width: 1200px){
-    		font-size: 2.5rem;
+    		font-size: 3rem;
     	}
     }
     h4{
     	font-family: 'Montserrat Alternates', sans-serif;
         color: $menta;
         font-size: 1.5rem;
+        width:70%;
+        text-align:center;
+        position:relative;
+    	left:60px;
     	@media only screen and (min-width: 1200px){
     	    font-size: 2rem;
+    	    position:relative;
+    	    left:90px;
     	}
 
+    }
+    @media only screen and (min-width: 1200px){
+   
     }
 }

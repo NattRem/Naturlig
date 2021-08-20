@@ -7730,20 +7730,28 @@ html {
     text-align: center;
     font-size: 1.5rem;
     font-weight: 600; }
-  .Destacados--tipograf h3 {
-    font-family: 'Montserrat Alternates', sans-serif;
-    color: #66b491ff;
-    font-size: 2rem; }
-    @media only screen and (min-width: 1200px) {
-      .Destacados--tipograf h3 {
-        font-size: 2.5rem; } }
-  .Destacados--tipograf h4 {
-    font-family: 'Montserrat Alternates', sans-serif;
-    color: #66b491ff;
-    font-size: 1.5rem; }
-    @media only screen and (min-width: 1200px) {
-      .Destacados--tipograf h4 {
-        font-size: 2rem; } }
+
+.destacados h3 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #81e1b5ff;
+  font-size: 1.8rem; }
+  @media only screen and (min-width: 1200px) {
+    .destacados h3 {
+      font-size: 3rem; } }
+
+.destacados h4 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #66b491ff;
+  font-size: 1.5rem;
+  width: 70%;
+  text-align: center;
+  position: relative;
+  left: 60px; }
+  @media only screen and (min-width: 1200px) {
+    .destacados h4 {
+      font-size: 2rem;
+      position: relative;
+      left: 90px; } }
 
 @media only screen and (min-width: 1200px) {
   .RedesContacto {
