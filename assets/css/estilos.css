@@ -7659,22 +7659,6 @@ html {
       position: relative;
       top: 0px; } }
 
-.TypeProd2 {
-  font-family: 'Montserrat Alternates', sans-serif;
-  font-size: 1rem;
-  font-weight: 500;
-  text-align: center;
-  line-height: 1;
-  color: #4f8c71ff; }
-  @media only screen and (min-width: 1200px) {
-    .TypeProd2 {
-      text-align: left;
-      position: relative;
-      right: 125px; } }
-  @media only screen and (min-width: 1200px) {
-    .TypeProd2 h5 {
-      font-size: 2rem; } }
-
 .TarjetaProducto {
   width: 80%;
   height: 80%;
@@ -7708,17 +7692,6 @@ html {
     @media only screen and (min-width: 1200px) {
       .TarjetaProducto img {
         width: 50%; } }
-
-@media only screen and (min-width: 1200px) {
-  .SegunProducTienda {
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    left: 200px; } }
-
-@media only screen and (min-width: 1200px) {
-  .SegunProducTienda img {
-    width: 60%; } }
 
 @media only screen and (min-width: 1200px) {
   .InputBuscar {
@@ -7759,6 +7732,31 @@ html {
       font-size: 2rem;
       position: relative;
       left: 90px; } }
+
+.Title--Type {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1;
+  color: #81e1b5ff;
+  font-size: 4rem; }
+  @media only screen and (min-width: 1200px) {
+    .Title--Type {
+      font-size: 7rem;
+      position: relative;
+      top: 90px; } }
+
+.Text--Type {
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #66b491ff;
+  font-size: 2rem;
+  width: 70%;
+  text-align: center;
+  position: relative;
+  left: 60px; }
+  @media only screen and (min-width: 1200px) {
+    .Text--Type {
+      font-size: 3.5rem; } }
 
 @media only screen and (min-width: 1200px) {
   .RedesContacto {
