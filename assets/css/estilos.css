@@ -7849,7 +7849,7 @@ html {
   @media only screen and (min-width: 1200px) {
     .Contact__mail--ícono {
       position: relative;
-      left: 20px;
+      left: 10px;
       top: 20px; } }
 
 .Contact__mail--dire {
@@ -7870,7 +7870,8 @@ html {
   @media only screen and (min-width: 1200px) {
     .Contact__cel--ícono {
       position: relative;
-      top: 10px; } }
+      top: 10px;
+      left: 40px; } }
 
 .Contact__cel--numero {
   position: relative;
@@ -7899,10 +7900,16 @@ html {
     .CardRedesContacto {
       text-align: center;
       position: relative;
+      top: 120px;
       height: 90%; } }
   .CardRedesContacto h3 {
     font-size: 2rem;
     font-weight: 500; }
+    @media only screen and (min-width: 1200px) {
+      .CardRedesContacto h3 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem; } }
   .CardRedesContacto h4 {
     font-size: 1.5rem;
     font-weight: 400; }
