@@ -7818,18 +7818,9 @@ html {
         top: 100px; } }
 
 @media only screen and (min-width: 1200px) {
-  .RedesContacto {
-    font-size: 3rem; } }
-
-@media only screen and (min-width: 1200px) {
   .paddingLRForm {
     margin-left: 30px;
     margin-right: 30px; } }
-
-@media only screen and (min-width: 1200px) {
-  .ContactoRedes {
-    position: relative;
-    top: 20px; } }
 
 .infoContac__texto--type {
   position: relative;
@@ -7851,10 +7842,10 @@ html {
       bottom: 70px; } }
 
 .Contact__mail--ícono {
-  padding-left: 10px;
+  mergin-left: 10px;
+  margin-top: 5px;
   width: 10%;
-  position: relative;
-  left: 20px; }
+  height: 10%; }
   @media only screen and (min-width: 1200px) {
     .Contact__mail--ícono {
       position: relative;
@@ -7862,9 +7853,7 @@ html {
       top: 20px; } }
 
 .Contact__mail--dire {
-  position: relative;
-  right: 0px;
-  top: 5px;
+  padding-top: 5px;
   overflow: hidden; }
   @media only screen and (min-width: 1200px) {
     .Contact__mail--dire {
@@ -7873,10 +7862,11 @@ html {
       top: 25px; } }
 
 .Contact__cel--ícono {
-  padding-right: 10px;
+  margin-right: 20px;
   width: 10%;
+  height: 10%;
   position: relative;
-  left: 35px; }
+  left: 10px; }
   @media only screen and (min-width: 1200px) {
     .Contact__cel--ícono {
       position: relative;
@@ -7891,3 +7881,55 @@ html {
     .Contact__cel--numero {
       position: relative;
       top: 15px; } }
+
+.CardRedesContacto {
+  width: 90%;
+  height: 80%;
+  position: relative;
+  left: 20px;
+  background-image: url("../imagenes/Tienda/background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: 'Montserrat Alternates', sans-serif;
+  text-align: center;
+  line-height: 1;
+  color: #4f8c71ff; }
+  @media only screen and (min-width: 1200px) {
+    .CardRedesContacto {
+      text-align: center;
+      position: relative;
+      height: 90%; } }
+  .CardRedesContacto h3 {
+    font-size: 2rem;
+    font-weight: 500; }
+  .CardRedesContacto h4 {
+    font-size: 1.5rem;
+    font-weight: 400; }
+
+.IconFace {
+  width: 12%;
+  height: 12%;
+  transition: all 0.5s;
+  margin: 15px; }
+
+.IconFace:hover {
+  transform: scale(125%); }
+
+.IconIG {
+  width: 12%;
+  height: 12%;
+  transition: all 0.5s;
+  margin: 15px; }
+
+.IconIG:hover {
+  transform: scale(125%); }
+
+@media only screen and (min-width: 1200px) {
+  .FyG a {
+    width: 60px;
+    transition: width 0.5s; } }
+
+@media only screen and (min-width: 1200px) {
+  .FyG a:hover {
+    width: 80px; } }
