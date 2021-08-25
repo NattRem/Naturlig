@@ -7472,24 +7472,18 @@ html {
   padding: 5px;
   margin: 0px 5px 0px 5px; }
 
-.footer__Up a {
-  text-decoration: none; }
-
-.footer__Up p {
+.footer__Up {
   font-family: 'Montserrat Alternates', sans-serif;
   font-size: 40px;
-  transition: font-size 0.5s;
+  transition: all 0.5s;
   font-weight: 400;
   color: #4f8c71ff; }
   @media only screen and (min-width: 1200px) {
-    .footer__Up p {
+    .footer__Up {
       font-size: 45px; } }
 
-.footer__Up p:hover {
-  font-size: 40.5px; }
-  @media only screen and (min-width: 1200px) {
-    .footer__Up p:hover {
-      font-size: 50.5px; } }
+.footer__Up:hover {
+  transform: scale(115%); }
 
 .TypeFoot {
   font-family: 'Montserrat Alternates', sans-serif;
@@ -7931,12 +7925,3 @@ html {
 
 .IconIG:hover {
   transform: scale(125%); }
-
-@media only screen and (min-width: 1200px) {
-  .FyG a {
-    width: 60px;
-    transition: width 0.5s; } }
-
-@media only screen and (min-width: 1200px) {
-  .FyG a:hover {
-    width: 80px; } }

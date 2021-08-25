@@ -130,18 +130,4 @@
 .IconIG:hover{
     transform:scale(125%);
 }
-
-.FyG{
-   a{
-        @media only screen and (min-width: 1200px){
-            width: 60px;
-            transition: width 0.5s;
-        }
-    }
-    a:hover{
-        @media only screen and (min-width: 1200px){
-            width: 80px;
-        }
-    } 
-}
     
