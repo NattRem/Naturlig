@@ -14,10 +14,15 @@
     font-weight: 600;
     color: $oscuro;
     text-decoration: none;
+    transition: all 0.5s;
 
     a{
     text-decoration: none;
     }
+}
+.seguinos:hover{
+    transform:translate(0px,-10px);
+    color: $logo;
 }
 
 .navbar-expand-lg .navbar-collapse{justify-content: center;}

@@ -7448,9 +7448,14 @@ html {
   font-size: 2rem;
   font-weight: 600;
   color: #4f8c71ff;
-  text-decoration: none; }
+  text-decoration: none;
+  transition: all 0.5s; }
   .seguinos a {
     text-decoration: none; }
+
+.seguinos:hover {
+  transform: translate(0px, -10px);
+  color: #81e1b5ff; }
 
 .navbar-expand-lg .navbar-collapse {
   justify-content: center; }
