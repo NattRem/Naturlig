@@ -129,3 +129,70 @@ html{
 		}
 	}
 }
+
+.CuatroCeroCuatro{
+	background-image: url("../imagenes/404/background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1;
+    color: $miel;
+
+    h1{
+    	font-size: 3rem;
+    	font-weight: 600;
+    	position:relative;
+    	top:200px;
+    	color: $magic;
+    	text-align:center;
+    	@media only screen and (min-width: 1200px){
+    		position:relative;
+    		right:30px;
+    		top:150px;
+    	}
+    }
+    h3{
+    	position:relative;
+    	top:210px;
+    	right:10px;
+    	font-size: 2.5rem;
+    	font-weight: 500;
+    	text-align:center;
+    	@media only screen and (min-width: 1200px){
+    		position:relative;
+    		right:30px;
+    		top:160px;
+    	}
+    }
+    h4{
+    	text-align:center;
+    	width:80%;
+    	position:relative;
+    	top:230px;
+    	left:30px;
+    	@media only screen and (min-width: 1200px){
+    		position:relative;
+    		left:110px;
+    		top:170px;
+    	}
+    }
+    a{
+    	position:relative;
+    	top:250px;
+    	@media only screen and (min-width: 1200px){
+    		position:relative;
+    		top:350px;
+    		color: $miel;
+    	}
+    }
+    p{    	
+    	text-align:center;
+    }
+}

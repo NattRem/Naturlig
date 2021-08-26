@@ -7306,6 +7306,64 @@ html {
       .NoAnimalTesting img {
         left: 0px; } }
 
+.CuatroCeroCuatro {
+  background-image: url("../imagenes/404/background.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #e8faf1ff; }
+  .CuatroCeroCuatro h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    position: relative;
+    top: 200px;
+    color: #aeeccfff;
+    text-align: center; }
+    @media only screen and (min-width: 1200px) {
+      .CuatroCeroCuatro h1 {
+        position: relative;
+        right: 30px;
+        top: 150px; } }
+  .CuatroCeroCuatro h3 {
+    position: relative;
+    top: 210px;
+    right: 10px;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center; }
+    @media only screen and (min-width: 1200px) {
+      .CuatroCeroCuatro h3 {
+        position: relative;
+        right: 30px;
+        top: 160px; } }
+  .CuatroCeroCuatro h4 {
+    text-align: center;
+    width: 80%;
+    position: relative;
+    top: 230px;
+    left: 30px; }
+    @media only screen and (min-width: 1200px) {
+      .CuatroCeroCuatro h4 {
+        position: relative;
+        left: 110px;
+        top: 170px; } }
+  .CuatroCeroCuatro a {
+    position: relative;
+    top: 250px; }
+    @media only screen and (min-width: 1200px) {
+      .CuatroCeroCuatro a {
+        position: relative;
+        top: 350px;
+        color: #e8faf1ff; } }
+  .CuatroCeroCuatro p {
+    text-align: center; }
+
 /*map-get*/
 .ParallaxInicio, .ParallaxTienda {
   background-image: url("../imagenes/img01.jpg");
