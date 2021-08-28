@@ -10,14 +10,18 @@ $Parh1:(
 .ParallaxInicio{
     background-image: url("../imagenes/img01.jpg");
     height: $AltoPllx;
+    width:100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: right;
+    background-size: cover;
     padding: 5rem 3rem;
     margin-bottom:5rem;
         @media only screen and (min-width: 1200px){
             height: $AltoPllx+10rem;
             background-position: center;
+            background-size: cover;
+            width:100%;
         }
 
     h1{
@@ -50,7 +54,14 @@ $Parh1:(
 .ParallaxTienda{
     @extend .ParallaxInicio;
     background-image: url("../imagenes/img02.jpg");
-    
+    background-size: cover;
+    width:100%;
+    @media only screen and (min-width: 1200px){
+            height: $AltoPllx+10rem;
+            background-position: center;
+            background-size: cover;
+            width:100%;
+        }
     h1{
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 2.5rem;
@@ -86,9 +97,13 @@ $Parh1:(
     background-position: right;
     padding: 5rem 3rem;
     margin-bottom:5rem;
+    background-size: cover;
+    width:100%;
         @media only screen and (min-width: 1200px){
             height: $AltoPllx+10rem;
             background-position: center;
+            background-size: cover;
+            width:100%;
         }
 
     h1{
@@ -126,9 +141,13 @@ $Parh1:(
     background-position: right;
     padding: 5rem 3rem;
     margin-bottom:5rem;
-        @media only screen and (min-width: 1200px){
+    background-size: cover;
+            width:100%;
+         @media only screen and (min-width: 1200px){
             height: $AltoPllx+10rem;
             background-position: center;
+            background-size: cover;
+            width:100%;
         }
 
     h1{

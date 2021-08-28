@@ -7368,15 +7368,19 @@ html {
 .ParallaxInicio, .ParallaxTienda {
   background-image: url("../imagenes/img01.jpg");
   height: 20rem;
+  width: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: right;
+  background-size: cover;
   padding: 5rem 3rem;
   margin-bottom: 5rem; }
   @media only screen and (min-width: 1200px) {
     .ParallaxInicio, .ParallaxTienda {
       height: 30rem;
-      background-position: center; } }
+      background-position: center;
+      background-size: cover;
+      width: 100%; } }
   .ParallaxInicio h1, .ParallaxTienda h1 {
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 2.5rem;
@@ -7401,7 +7405,15 @@ html {
         text-align: right; } }
 
 .ParallaxTienda {
-  background-image: url("../imagenes/img02.jpg"); }
+  background-image: url("../imagenes/img02.jpg");
+  background-size: cover;
+  width: 100%; }
+  @media only screen and (min-width: 1200px) {
+    .ParallaxTienda {
+      height: 30rem;
+      background-position: center;
+      background-size: cover;
+      width: 100%; } }
   .ParallaxTienda h1 {
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 2.5rem;
@@ -7432,11 +7444,15 @@ html {
   background-repeat: no-repeat;
   background-position: right;
   padding: 5rem 3rem;
-  margin-bottom: 5rem; }
+  margin-bottom: 5rem;
+  background-size: cover;
+  width: 100%; }
   @media only screen and (min-width: 1200px) {
     .ParallaxPromo {
       height: 30rem;
-      background-position: center; } }
+      background-position: center;
+      background-size: cover;
+      width: 100%; } }
   .ParallaxPromo h1 {
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 2.5rem;
@@ -7467,11 +7483,15 @@ html {
   background-repeat: no-repeat;
   background-position: right;
   padding: 5rem 3rem;
-  margin-bottom: 5rem; }
+  margin-bottom: 5rem;
+  background-size: cover;
+  width: 100%; }
   @media only screen and (min-width: 1200px) {
     .ParallaxNov {
       height: 30rem;
-      background-position: center; } }
+      background-position: center;
+      background-size: cover;
+      width: 100%; } }
   .ParallaxNov h1 {
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 2.5rem;
