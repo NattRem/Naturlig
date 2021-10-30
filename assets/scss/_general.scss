@@ -39,6 +39,17 @@ html{
 	margin-right: 0px;
 }
 
+.conteiner {
+    max-width: 1000px;
+    margin: 10px auto;
+}
+
+.input{
+    position: relative;
+    width: 300px;
+    overflow: hidden;
+}
+
 .BGcolor{
 	background-color: $fondo;
 }

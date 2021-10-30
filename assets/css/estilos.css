@@ -7226,6 +7226,15 @@ html {
   margin-left: 0px;
   margin-right: 0px; }
 
+.conteiner {
+  max-width: 1000px;
+  margin: 10px auto; }
+
+.input {
+  position: relative;
+  width: 300px;
+  overflow: hidden; }
+
 .BGcolor {
   background-color: #daf6e8ff; }
 
@@ -7741,6 +7750,7 @@ html {
   height: 80%;
   position: relative;
   left: 20px;
+  margin: 10px;
   background-image: url("../imagenes/Tienda/background.png");
   background-repeat: no-repeat;
   background-position: center;
