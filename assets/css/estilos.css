@@ -7395,7 +7395,7 @@ html {
   .ParallaxInicio h3, .ParallaxTienda h3 {
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 1.5rem;
-    text-align: right;
+    text-align: center;
     font-weight: 500;
     color: #4f8c71ff;
     padding: 5px; }
