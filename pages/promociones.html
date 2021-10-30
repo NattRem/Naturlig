@@ -92,90 +92,20 @@
       </div>
     </div>
 
-    <!--cards articulos-->
-    <div class="container-fluid overflow-hidden">
-      <div class="row">
-        <!--primer producto-->
-        <div class="col-lg-3 col-xs-12 shadow-sm border rounded overflow-hidden mb-4 TarjetaProducto ml-4 mr-4" data-aos="zoom-out">
-          <div>
-            <h3 class="mt-4">PASTILLAS DEFUMACIÓN</h3>
-            <h4>$$$</h4>
-            <h5>
-              Variedades Disponibles:<br>
-              -ANIS -CANELA Y ROMERO -INCIENSO -PALO SANTO -RUDA -SALVIA -LAVANDA
-            </h5>
+    <!--PRODUCTOS promo-->
+    <div id="divDinamico" class="row conteiner" data-aos="zoom-out"> </div>  
+
+    <!--CARRITO-->
+    <div class="modal-contenedor">
+      <div class="modal-carrito">
+          <h3>Carrito</h3>
+          <button id="carritoCerrar"><img class="iconCerrar" src= "../assets/imagenes/Iconos/cruz.png" alt="Icono Cerrar/Eliminar"></button>
+          <div id="carrito-contenedor">
+              <!-- PRODUCTO EN CARRITO-->
           </div>
-          <div>
-            <img src="../assets/imagenes/Promos/PastillasDefumacion.png" alt="Pastillas Defumación Activada" class="imgFluid mb-2">
-          </div>
-        </div>
-        <!--segundo producto-->
-        <div class="col-lg-3 col-xs-12 shadow-sm border rounded overflow-hidden mb-4 TarjetaProducto ml-4 mr-4" data-aos="zoom-out">
-          <div>
-            <h3 class="mt-4">HUMECTANTE SOLIDO</h3>
-            <h4>$$$</h4>
-            <h5>
-              Acondicionador: contiene Vitamina E y Aceites Reparadores que penetran el pelo para devolverle su brillo y suavidad natural
-            </h5>
-          </div>
-          <div>
-            <img src="../assets/imagenes/Tienda/acondicionador.png" alt="Acondicionador Sólido" class="imgFluid">
-          </div>
-        </div>
-        <!--tercer producto-->
-        <div class="col-lg-3 col-xs-12 shadow-sm border rounded overflow-hidden mb-4 TarjetaProducto ml-4 mr-4" data-aos="zoom-out">
-          <div>
-            <h3 class="mt-4">SHAMPOO YELLOW</h3>
-            <h4>$$$</h4>
-            <h5>
-              Shampoo sólido: contiene Aceite de Jojoba y Vitamina E, dos ingredientes esenciales para reparar el cabello en su totalidad.
-            </h5>
-          </div>
-          <div>
-            <img src="../assets/imagenes/Promos/shampooYellow.png" alt="Shampoo solido Yellow" class="imgFluid">
-          </div>
-        </div>
-        <!--cuarto producto-->
-        <div class="col-lg-3 col-xs-12 shadow-sm border rounded overflow-hidden mb-4 TarjetaProducto ml-4 mr-4" data-aos="zoom-out">
-          <div>
-            <h3 class="mt-4">SHAMPOO ANTI-FRIZZ</h3>
-            <h4>$$$</h4>
-            <h5>
-               Si tenes el cabello seco, rizado o castigado este shampoo es para vos. Con aceite de coco...   
-            </h5>
-          </div>
-          <div>
-            <img src="../assets/imagenes/Promos/ShampooAntiFrizz.png" alt="Shampoo sólido anti-frizz" class="imgFluid mb-2">
-          </div>
-        </div>
-        <!--quinto producto-->
-        <div class="col-lg-3 col-xs-12 shadow-sm border rounded overflow-hidden mb-4 TarjetaProducto ml-4 mr-4" data-aos="zoom-out">
-          <div>
-            <h3 class="mt-4">DESODORANTE</h3>
-            <h4>$$$</h4>
-            <h5>
-              Nuestro desodorante natural esta hecho sin ingredientes agresivos para la piel teniendo como protagonista ... 
-            </h5>
-          </div>
-          <div>
-            <img src="../assets/imagenes/Promos/DesodoranteNatural.png" alt="Desodorante Natural" class="imgFluid mb-2">
-          </div>
-        </div>
-        <!--sexto producto-->
-        <div class="col-lg-3 col-xs-12 shadow-sm border rounded overflow-hidden mb-4 TarjetaProducto ml-4 mr-4" data-aos="zoom-out">
-          <div>
-            <h3 class="mt-4">CEPILLO MERAKI</h3>
-            <h4>$$$</h4>
-            <h5>
-              Están compuestos en un 97% por materiales biodegradables: packaging de cartón y mango de bambú moso. 
-            </h5>
-          </div>
-          <div>
-            <img src="../assets/imagenes/Tienda/CepilloEcologico.png" alt="Cepillo Ecológico mango de bamboo" class="imgFluid mb-2">
-          </div>
-        </div>
+          <p class="precioProducto">Precio total: $<span id="precioTotal"></span></p>
       </div>
-    </div>  
+    </div>
 
 
 <!--FOOTER-->
