@@ -6,7 +6,7 @@ $("#selectCategoria").on("change", buscarCategoria);
 $(document).ready(function () { 
     console.log("dom listo");
     Toastify({
-        text: "¡Esperamos que disfrutes nuestros productos!",
+        text: "¡Gracias por visitarnos!",
         className: "info",
         style: {
             background: "#4F8C71",

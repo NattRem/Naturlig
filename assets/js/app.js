@@ -45,10 +45,10 @@ function agregarAlCarrito(id){
         actualizarCarrito();
 
         $("#carrito-contenedor").append(`<div class ="productoEnCarrito">
-                        <p class="m-2">${productoAgregar.nombre}|</p>
-                        <p class="m-2"> $<strong>${productoAgregar.precio}</strong>|</p>
+                        <p class="m-2"><strong>${productoAgregar.nombre}</strong>|</p>
+                        <p class="m-2"> Precio: $<strong>${productoAgregar.precio}</strong>|</p>
                         <p id=cantidad${productoAgregar.id} class="m-2">  X${productoAgregar.cantidad}  |</p>
-                        <button id =eliminar${productoAgregar.id} class="boton-eliminar m-2"><img class="iconCerrar" src= "../assets/img/iconos/cruz.png" alt="Icono Cerrar/Eliminar"</button>
+                        <button id =eliminar${productoAgregar.id} class="boton-eliminar m-2"><img class="iconCerrar" src= "../assets/imagenes/Iconos/cruz.png" alt="Icono Cerrar/Eliminar" width="10%"></button>
                     </div>`)
 
             Toastify({
