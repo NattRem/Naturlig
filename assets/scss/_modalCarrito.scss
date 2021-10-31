@@ -1,1 +1,127 @@
 @import "paleta";
+
+#imgCarrito{
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #4f8c71ff;
+    width:50%;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+#imgCarrito.a{
+    text-decoration: none;
+}
+#imgCarrito:hover{
+        transform:translate(0px,-7px);
+        color: #81e1b5ff;
+}
+#boton-carrito {
+    border: 1px solid #81E1B5;
+    color: #4F8C71;
+    font-size: 30px;
+    background-color: #AEECCF;
+    border-radius: 10%;
+    padding: 5px 10px;
+    margin: 15px;
+    transition: all .3s;
+}
+#boton-carrito:hover {
+    cursor: pointer;
+    background-color: #DAF6E8;
+}
+#boton-carrito:focus {
+    outline: none;
+}
+.modal-contenedor {
+    font-family: 'Montserrat Alternates', sans-serif; 
+    font-weight: 300;
+    font-size: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s;
+    opacity: 0;
+    visibility: hidden;
+}
+.modal-active {
+    opacity: 1;
+    visibility: visible;
+    z-index: 5;
+}
+.modal-carrito {
+    position: relative;
+    background-color: white;
+    width: 80%;
+    padding: 20px;
+    margin-top: -100%;
+    transition: all .5s;
+    @media only screen and (min-width: 1200px){
+            min-width: 40%;
+    }
+}
+
+
+.modal-active .modal-carrito {
+    margin-top: 0;
+}
+.modal-carrito h3 {
+    color: #4F8C71;
+    font-family: 'Montserrat Alternates', sans-serif; 
+    font-weight: 600;
+    font-size: 2rem;
+}
+.modal-carrito #carritoCerrar {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 20px;
+    color: #4F8C71;
+    border: none;
+    background-color: white;
+}
+.modal-carrito #carritoCerrar:hover {
+    cursor: pointer;
+}
+.modal-carrito #carritoCerrar:focus {
+    outline: none;
+}
+.modal-carrito .precioProducto {
+    padding-top: 10px;
+    
+}
+.productoEnCarrito {
+    border-left: 5px solid lightblue;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    margin: 5px 0;
+    padding: 5px 10px;
+    width:75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.productoEnCarrito:hover {
+    border-left: 5px solid #4F8C71;
+}
+.boton-eliminar {
+    background-color: white;
+    color: greenyellow;
+    border: none;
+    font-size: 20px;
+}
+.boton-eliminar:hover {
+    cursor: pointer;
+}
+.boton-eliminar:focus {
+    outline: none;
+}
+.iconCerrar{
+    width:100%;
+}
+#carritoCerrar{
+    width:15%
+}
