@@ -7237,6 +7237,9 @@ html {
   width: 300px;
   overflow: hidden;
   border-color: #66b491ff; }
+  @media only screen and (min-width: 1200px) {
+    .input {
+      left: 50%; } }
 
 .BGcolor {
   background-color: #daf6e8ff; }

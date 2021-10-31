@@ -51,6 +51,9 @@ html{
     width: 300px;
     overflow: hidden;
 	border-color:$menta;
+	@media only screen and (min-width: 1200px){
+		left: 50%;
+	}
 }
 
 .BGcolor{
