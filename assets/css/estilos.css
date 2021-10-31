@@ -7232,8 +7232,11 @@ html {
 
 .input {
   position: relative;
+  display: flex;
+  text-align: center;
   width: 300px;
-  overflow: hidden; }
+  overflow: hidden;
+  border-color: #66b491ff; }
 
 .BGcolor {
   background-color: #daf6e8ff; }

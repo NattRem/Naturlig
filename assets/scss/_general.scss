@@ -46,8 +46,11 @@ html{
 
 .input{
     position: relative;
+	display:flex;
+	text-align: center;
     width: 300px;
     overflow: hidden;
+	border-color:$menta;
 }
 
 .BGcolor{
