@@ -7,10 +7,20 @@
         width: 50%;
     }
 }
+.navMobile{
+    position: relative;
+    bottom:60px;
+}
+.carritoMobile{
+    position: relative;
+    left:225px;
+    bottom:130px;
+}
 .stikyNav{
     position:fixed;
     top: 0;
     left: 0;
+    height:15%;
     z-index: 999;
     transition: all 300ms ease-in-out;
 }
