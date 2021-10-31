@@ -1,31 +1,31 @@
 @import "paleta";
 
 #logo{
-    width: 50%;
+    width: 25%;
 
     @media only screen and (min-width: 1200px){
-        width: 15%;
+        width: 50%;
     }
 }
-
-.seguinos{
-	font-family: 'Montserrat Alternates', sans-serif;
-    font-size: 2rem;
-    font-weight: 600;
-    color: $oscuro;
-    text-decoration: none;
-    transition: all 0.5s;
-
-    a{
-    text-decoration: none;
-    }
+.stikyNav{
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    transition: all 300ms ease-in-out;
 }
-.seguinos:hover{
-    transform:translate(0px,-10px);
-    color: $logo;
+.scroll-down .stikyNav{
+    transform: translate3d(0, -100%, 0);
 }
+.scroll-up .stikyNav{
+    filter: drop-shadow(0 -10px 20px rgb(170, 170, 170))
+}
+
 
 .navbar-expand-lg .navbar-collapse{justify-content: center;}
+.navbar-nav{
+    margin-top: 10px;
+}
 
 .nav__li--activa{
     font-family: 'Montserrat Alternates', sans-serif;
