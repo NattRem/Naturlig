@@ -7771,7 +7771,6 @@ html {
     .TarjetaProducto {
       text-align: center;
       position: relative;
-      left: 100px;
       height: 90%; } }
   .TarjetaProducto h3 {
     font-size: 1.3rem;
