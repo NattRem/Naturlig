@@ -40,7 +40,7 @@ function agregarAlCarrito(id){
         let productoAgregar = productos.find(x => x.id == id);
         carritoDeCompras.push(productoAgregar);
         
-        productoAgregar.cantidad = 1;
+        
 
         actualizarCarrito();
 
@@ -51,6 +51,8 @@ function agregarAlCarrito(id){
                         <button id =eliminar${productoAgregar.id} class="boton-eliminar m-2"><img class="iconCerrar" src= "../assets/imagenes/Iconos/cruz.png" alt="Icono Cerrar/Eliminar" width="10%"></button>
                     </div>`)
 
+            productoAgregar.cantidad = 1;
+            
             Toastify({
                 text: "Agregado al carrito",
                 className: "info",
