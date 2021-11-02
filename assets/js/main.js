@@ -17,7 +17,6 @@ $(document).ready(function () {
 
 //Utilizo una llamada asincrona para traer los datos desde un JSON
 $.get("../assets/data/productos.json", function (respuesta, estado) {
-    console.log(respuesta);
     //Pregunto si el estado de la operacion fue exitoso
     if(estado == "success"){
         //Recorro el array respuesta y lo transformo a objetos de tipo "producto"
