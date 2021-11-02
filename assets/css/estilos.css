@@ -8064,12 +8064,14 @@ html {
 .modal-active {
   opacity: 1;
   visibility: visible;
-  z-index: 5; }
+  z-index: 5;
+  overflow-y: auto; }
 
 .modal-carrito {
   position: relative;
   background-color: white;
   width: 80%;
+  height: 70%;
   padding: 20px;
   margin-top: -100%;
   transition: all .5s; }
@@ -8078,7 +8080,8 @@ html {
       width: 70%; } }
 
 .modal-active .modal-carrito {
-  margin-top: 0; }
+  margin-top: 0;
+  overflow-y: auto; }
 
 .modal-carrito h3 {
   color: #4F8C71;
@@ -8111,6 +8114,7 @@ html {
   margin: 5px 0;
   padding: 5px 10px;
   width: 75%;
+  height: 90%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between; }
