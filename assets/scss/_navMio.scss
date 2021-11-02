@@ -10,14 +10,24 @@
 .navMobile{
     position: relative;
     bottom:60px;
+    @media only screen and (min-width: 1200px){
+        bottom:0px;
+    }
 }
 .carritoMobile{
     position: relative;
     left:225px;
     bottom:130px;
+    @media only screen and (min-width: 1200px){
+        bottom:0px;
+        left:0px;
+    }
 }
 .liFondo{
     background-color: rgba(218, 246, 232, .9);
+    @media only screen and (min-width: 1200px){
+        background-color: rgba(218, 246, 232, 0.0);
+    }
 }
 .stikyNav{
     position:fixed;

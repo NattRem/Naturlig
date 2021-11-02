@@ -7539,14 +7539,24 @@ html {
 .navMobile {
   position: relative;
   bottom: 60px; }
+  @media only screen and (min-width: 1200px) {
+    .navMobile {
+      bottom: 0px; } }
 
 .carritoMobile {
   position: relative;
   left: 225px;
   bottom: 130px; }
+  @media only screen and (min-width: 1200px) {
+    .carritoMobile {
+      bottom: 0px;
+      left: 0px; } }
 
 .liFondo {
   background-color: rgba(218, 246, 232, 0.9); }
+  @media only screen and (min-width: 1200px) {
+    .liFondo {
+      background-color: rgba(218, 246, 232, 0); } }
 
 .stikyNav {
   position: fixed;
@@ -8065,7 +8075,7 @@ html {
   transition: all .5s; }
   @media only screen and (min-width: 1200px) {
     .modal-carrito {
-      min-width: 40%; } }
+      width: 70%; } }
 
 .modal-active .modal-carrito {
   margin-top: 0; }
@@ -8122,6 +8132,9 @@ html {
 
 .iconCerrar {
   width: 100%; }
+  @media only screen and (min-width: 1200px) {
+    .iconCerrar {
+      width: 15%; } }
 
 #carritoCerrar {
   width: 15%; }
