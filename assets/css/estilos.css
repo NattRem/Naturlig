@@ -7545,6 +7545,9 @@ html {
   left: 225px;
   bottom: 130px; }
 
+.liFondo {
+  background-color: rgba(218, 246, 232, 0.9); }
+
 .stikyNav {
   position: fixed;
   top: 0;
